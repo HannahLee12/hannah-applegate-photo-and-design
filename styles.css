@@ -250,6 +250,7 @@ img {
   max-width: 100vw;
   height: 5px;
   padding: 3px;
+  padding-left: 0;
   background-color: #25283d;
   z-index: 1000;
   transform-origin: left;
