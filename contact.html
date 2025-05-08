@@ -5,21 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact</title>
   <link rel="icon" type="image/x-icon" href="images/circle-logo.png">
+  <link rel="stylesheet" href="styles.css"/>
 </head>
 <header>
   <a href="../index.html"> <img src="/images/wide-logo.png"> </a>
-  <div class="nav-bar">
-      <a class="photography-button" href="photography.html">Photography</a>
-      <a class="art-button" href="art.html">Art</a>
-      <a class="about-button" href="about.html">About Me</a>
-      <a class="contact" href="contact.html">Contact</a>
+  <div>
+    <ul class="nav-bar" >
+      <li><a class="home-button" href="index.html">Home</a></li>
+      <li><a class="photography-button" href="photography.html">Photography</a> </li>
+      <li><a class="art-button" href="art.html">Art</a> </li>
+      <li><a class="about-button" href="about.html">About Me</a> </li>
+      <li><a class="contact" href="contact.html">Contact</a> </li>
+    </ul>
   </div>
 </header>
 <body>
   <main>
     <h1>Contact Me</h1>
-    <h2>Have any questions? Feel free to reach out!</h2>
-    <div>
+    <div class="form">
       <form action="#" method="post" name="ContactForm" enctype="multipart/form-data">
         <fieldset>
           <legend>Contact Information</legend>
@@ -42,11 +45,10 @@
           </div>
           <div>
           <label for="comments">Comments</label>
-          <textarea name="comments" cols="85" rows="12"></textarea> 
+          <textarea name="comments" cols="30" rows="12"></textarea> 
           </div>
         </fieldset>
       </form>
-      <a href="http://www.instagram.com/starry.eyes12/" target="_blank">Instagram Link</a>
     </div>
   </main>
 </body>
